@@ -7,7 +7,9 @@ submitbutton1.addEventListener('mouseover', (e) => {
     document.getElementById('h1_text').innerHTML = inputfield
 })
 
-
+submitbutton1.addEventListener('mouseout', (e) => {
+    document.getElementById('h1_text').innerHTML = ""
+})
 
 submitbutton1.addEventListener('click', (e) => {
     inputfield = inputfield1.value
