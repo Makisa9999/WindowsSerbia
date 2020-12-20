@@ -1,0 +1,35 @@
+#menu_list {
+    list-style-type: none;
+}
+.link_div {
+    float: right;
+}
+.page_title {
+    float: left;
+    margin-top: -10px;
+    margin-left: 400px;
+}
+.home_about_contact_links {
+    float: right;
+    margin-right: 400px;
+}
+.link_div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.link_css {
+    text-decoation: none;
+    color: white;
+}
+.list_element {
+    color: white;
+}
+#dropdown1, #dropdown2, #dropdown3 {
+    width: fit-content;
+    height: fit-content;
+    padding: 14px;
+    background-color: black;
+}
